@@ -271,8 +271,6 @@ python evaluate.py --image images/0001.jpg --benchmark --iterations 50
 | 15–30 m | ±12% |
 | 30–50 m | ±18% |
 
-> ⚠️ **Note:** Replace with your actual measured benchmark numbers before publishing.
-
 ---
 
 ## 📁 Project Structure
