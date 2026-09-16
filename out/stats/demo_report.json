@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "total_images": 5,
+    "total_detections": 26,
+    "avg_detections_per_image": 5.2,
+    "unique_classes_detected": 3,
+    "avg_confidence": 0.5839385195420339,
+    "median_confidence": 0.571679949760437
+  },
+  "performance": {
+    "avg_inference_time_ms": 1073.5142707824707,
+    "std_inference_time_ms": 59.335774628206956,
+    "min_inference_time_ms": 989.6824359893799,
+    "max_inference_time_ms": 1167.7274703979492,
+    "avg_fps": 0.9315199874065138,
+    "throughput_images_per_sec": 0.9315199874065138
+  },
+  "per_class": {
+    "car": {
+      "count": 20,
+      "percentage": 76.92307692307693,
+      "avg_confidence": 0.6124759599566459,
+      "min_confidence": 0.43860673904418945,
+      "max_confidence": 0.7550531625747681,
+      "std_confidence": 0.09994199776143123,
+      "avg_box_area": 4315.89306640625,
+      "median_box_area": 3947.53125
+    },
+    "traffic light": {
+      "count": 5,
+      "percentage": 19.230769230769234,
+      "avg_confidence": 0.4787133693695068,
+      "min_confidence": 0.4234471023082733,
+      "max_confidence": 0.560303270816803,
+      "std_confidence": 0.048619569699835205,
+      "avg_box_area": 5460.8818359375,
+      "median_box_area": 880.2724609375
+    },
+    "truck": {
+      "count": 1,
+      "percentage": 3.8461538461538463,
+      "avg_confidence": 0.5393154621124268,
+      "min_confidence": 0.5393154621124268,
+      "max_confidence": 0.5393154621124268,
+      "std_confidence": 0.0,
+      "avg_box_area": 6384.5048828125,
+      "median_box_area": 6384.5048828125
+    }
+  },
+  "confidence_distribution": {
+    "histogram": [
+      0,
+      0,
+      0,
+      0,
+      8,
+      6,
+      8,
+      4,
+      0,
+      0
+    ],
+    "bin_edges": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+# ============================================================
+# Autonomous Driving Perception System — .gitignore
+# ============================================================
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+*.env
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ── Large Model Weights (too big for GitHub without LFS) ─────
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.tflite
+models/*.weights
+model_data/saved_model.pb
+model_data/variables/
+
+# ── Large Video Files ─────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+nb_images/*.mp4
+
+# ── Output / Generated Files ─────────────────────────────────
+out/detected_*
+out/crops/
+out/comparison_*
+out/driving_test*
+out/result*
+outputs/logs/
+outputs/reports/
+
+# ── Training Outputs ─────────────────────────────────────────
+training_output/
+checkpoints/
+runs/
+
+# ── Temporary / Misc ─────────────────────────────────────────
+*.tmp
+*.bak
+*.log
